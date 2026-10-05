@@ -49,12 +49,21 @@ img {
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
 
-.site-header .container {
-  min-height: 72px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
+@media (max-width: 760px) {
+  .site-header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 12px;
+  }
 }
 
 .logo {
