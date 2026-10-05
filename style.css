@@ -157,9 +157,9 @@ h3 {
 
 .button:hover,
 .button:focus-visible {
-  background-color: #f08a3c;
-  color: #ffffff;
-  box-shadow: 0 0 0 4px rgba(240, 138, 60, 0.25);
+  background-color: #fff1e6;
+  color: #164b5f;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.35);
 }
 
 .button:active {
@@ -168,7 +168,7 @@ h3 {
 
 .button-light {
   background-color: #ffffff;
-  color: #123f50;
+  color: #164b5f;
 }
 
 /* Разделы */
@@ -294,4 +294,30 @@ h3 {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 16px 35px rgba(23, 97, 123, 0.2);
+}
+.button {
+  display: inline-block;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 999px;
+  background-color: #e98235;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition:
+    background-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.button:hover,
+.button:focus-visible {
+  background-color: #f29a50;
+  color: #ffffff;
+  box-shadow: 0 0 0 4px rgba(233, 130, 53, 0.22);
+}
+
+.button:active {
+  background-color: #d96f28;
 }
