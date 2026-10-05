@@ -171,13 +171,6 @@ h3 {
   color: #123f50;
 }
 
-.button-light:hover,
-.button-light:focus-visible {
-  background-color: #fff1e8;
-  color: #123f50;
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.35);
-}
-
 /* Разделы */
 
 .section {
