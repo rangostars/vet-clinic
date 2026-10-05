@@ -146,21 +146,16 @@ h3 {
 /* Кнопки */
 
 .button {
-  display: inline-block;
-  padding: 14px 24px;
-  border-radius: 999px;
-  color: var(--white);
-  background: var(--orange);
-  font-weight: 700;
-  text-decoration: none;
-  transition: transform 0.2s ease, background-color 0.2s ease;
-  box-shadow 0.2s ease;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .button:hover {
-  transform: translateY(-3px);
+  transform: translateY(-1px);
   background-color: #d96f28;
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.14);
 }
 
 .button:active {
