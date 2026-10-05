@@ -290,24 +290,3 @@ h3 {
   transform: translateY(-5px);
   box-shadow: 0 16px 35px rgba(23, 97, 123, 0.2);
 }
-.contact-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 32px;
-}
-
-.contact-content h2 {
-  margin-bottom: 16px;
-}
-
-.contact-content p:not(.eyebrow) {
-  max-width: 650px;
-}
-
-@media (max-width: 760px) {
-  .contact-content {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-}
