@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -242,12 +246,12 @@ h3 {
 /* Мобильная версия */
 
 @media (max-width: 760px) {
-  .site-header .container {
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 16px 0;
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
   }
-
+}
   .main-nav {
     gap: 10px 14px;
   }
