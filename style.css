@@ -384,8 +384,12 @@ h3 {
   .main-nav a {
     font-size: 0.9rem;
   }
+  
+html {
+  background: red !important;
 }
 
 body {
-  background: pink !important;
+  background: yellow !important;
+  color: blue !important;
 }
