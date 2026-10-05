@@ -146,28 +146,24 @@ h3 {
 /* Кнопки */
 
 .button {
+  display: inline-block;
+  border: none;
+  cursor: pointer;
   transition:
-    transform 0.3s ease,
-    background-color 0.3s ease,
-    box-shadow 0.3s ease;
+    background-color 0.35s ease,
+    color 0.35s ease,
+    box-shadow 0.35s ease;
 }
 
-.button:hover {
-  transform: translateY(-1px);
-  background-color: #d96f28;
-  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.14);
+.button:hover,
+.button:focus-visible {
+  background-color: #f08a3c;
+  color: #ffffff;
+  box-shadow: 0 0 0 4px rgba(240, 138, 60, 0.25);
 }
 
 .button:active {
-  transform: translateY(0);
-}
-.button-light {
-  color: var(--blue-dark);
-  background: var(--white);
-}
-
-.button-light:hover {
-  background: #eafaff;
+  box-shadow: 0 0 0 2px rgba(240, 138, 60, 0.2);
 }
 
 /* Разделы */
