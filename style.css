@@ -385,3 +385,16 @@ h3 {
     font-size: 0.9rem;
   }
 }
+
+.doctor-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 14px 14px 0 0;
+}
+
+.hero-logo img {
+  width: min(360px, 80%);
+  height: auto;
+  border-radius: 50%;
+}
