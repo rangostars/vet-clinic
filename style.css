@@ -156,12 +156,11 @@ h3 {
 
 .button {
   display: inline-block;
-  border: none;
-  cursor: pointer;
-  transition:
-    background-color 0.35s ease,
-    color 0.35s ease,
-    box-shadow 0.35s ease;
+  padding: 14px 24px;
+  border-radius: 999px;
+  background-color: #e98235;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .button:hover,
