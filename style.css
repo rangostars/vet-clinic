@@ -134,7 +134,7 @@ h3 {
 }
 
 .hero-logo img {
-  width: min(300px, 80%);
+  width: min(360px, 80%);
   border-radius: 50%;
   box-shadow: var(--shadow);
 }
@@ -245,7 +245,7 @@ h3 {
   }
 
   .hero-logo img {
-    width: 190px;
+    width: 220px;
   }
 
   .section {
