@@ -155,26 +155,39 @@ h3 {
 .button {
   display: inline-block;
   padding: 14px 24px;
+  border: none;
   border-radius: 999px;
-  background-color: #e98235;
-  color: #ffffff;
+  background-color: var(--orange);
+  color: var(--white);
+  font-weight: 700;
   text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 0.35s ease,
+    color 0.35s ease,
+    box-shadow 0.35s ease;
 }
 
 .button:hover,
 .button:focus-visible {
-  background-color: #fff1e6;
-  color: #164b5f;
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.35);
+  background-color: #f7b477;
+  color: var(--white);
+  box-shadow: 0 0 0 4px rgba(242, 154, 82, 0.25);
 }
 
 .button:active {
-  box-shadow: 0 0 0 2px rgba(240, 138, 60, 0.2);
+  background-color: #d96f28;
 }
 
 .button-light {
-  background-color: #ffffff;
-  color: #164b5f;
+  background-color: var(--white);
+  color: var(--blue-dark);
+}
+
+.button-light:hover,
+.button-light:focus-visible {
+  background-color: #fff1e6;
+  color: var(--blue-dark);
 }
 
 /* Разделы */
