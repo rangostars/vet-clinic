@@ -253,14 +253,18 @@ h3 {
 /* Мобильная версия */
 
 @media (max-width: 760px) {
-  .nav-links {
-    display: flex;
+  .site-header .container {
     flex-wrap: wrap;
     gap: 12px;
+    padding: 16px 0;
   }
-}
+
   .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     gap: 10px 14px;
+    margin-left: auto;
   }
 
   .main-nav a {
@@ -323,15 +327,17 @@ h3 {
 .button:active {
   background-color: #d96f28;
 }
+
 .site-header .container {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 
-.nav-links {
+.main-nav {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 20px;
+  gap: 18px;
   margin-left: auto;
 }
